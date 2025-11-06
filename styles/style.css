@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -178,6 +178,7 @@ ol {
   color: #fff;
   border: 1px currentColor solid;
   font-size: 18px;
+  font-weight: 700;
 }
 
 .search-form__submit-button {
@@ -196,7 +197,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'Helvetica';
   font-size: 75px;
   font-weight: 700;
   text-transform: uppercase;
@@ -239,6 +240,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
+  transition: .5s;
 }
 
 .content__card-link:active {
@@ -263,7 +265,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'Helvetica';
   font-size: 30px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -295,6 +297,7 @@ ol {
 button:hover {
   text-decoration: underline;
   cursor: pointer;
+  transition: .5s;
 }
 
 button:active {
